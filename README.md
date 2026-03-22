@@ -72,10 +72,9 @@ Current Mission: Mastering System Design & Distributed Systems
 
 ## ☁️ DevOps & Deployment
 ![Docker](https://img.shields.io/badge/Docker-ff00ff?style=for-the-badge&logo=docker&logoColor=black)
-<!--![AWS](https://img.shields.io/badge/AWS-00ffff?style=for-the-badge&logo=amazon-aws&logoColor=black)-->
 ![Vercel](https://img.shields.io/badge/Vercel-ff00ff?style=for-the-badge&logo=vercel&logoColor=black)
 ![Render](https://img.shields.io/badge/Render-00ffff?style=for-the-badge&logo=render&logoColor=black)
-
+<!--![AWS](https://img.shields.io/badge/AWS-00ffff?style=for-the-badge&logo=amazon-aws&logoColor=black)-->
 
 ---
 
