@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Koushik Kar — Terminal Environment</title>
+  <desc id="desc">A neo-terminal interface introducing Koushik Kar, Full Stack Developer and Systems Engineer at NIT Agartala.</desc>
+
+  <defs>
+    <!-- Sharp background pattern -->
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1E293B" />
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      .cursor { animation: blink 1.2s infinite; }
+      @keyframes radar { 0% { opacity: 0.9; } 50% { opacity: 0.3; } 100% { opacity: 0.9; } }
+      .pulse { animation: radar 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Deep Matte Slate/Black Terminal Canvas -->
+  <rect width="1200" height="360" rx="14" fill="#080C14"/>
+  <rect width="1200" height="360" rx="14" fill="url(#dot-grid)"/>
+
+  <!-- Outer High-Contrast Border -->
+  <rect x="1" y="1" width="1198" height="358" rx="13" fill="none" stroke="#1E293B" stroke-width="2"/>
+  
+  <!-- Corner Accent Brackets (Neo-Brutalist HUD aesthetic) -->
+  <path d="M 2 24 L 2 2 L 24 2" fill="none" stroke="#00E5FF" stroke-width="3"/>
+  <path d="M 1198 24 L 1198 2 L 1176 2" fill="none" stroke="#00E5FF" stroke-width="3"/>
+  <path d="M 2 336 L 2 358 L 24 358" fill="none" stroke="#00E5FF" stroke-width="3"/>
+  <path d="M 1198 336 L 1198 358 L 1176 358" fill="none" stroke="#00E5FF" stroke-width="3"/>
+
+  <!-- Top Title Bar -->
+  <rect x="2" y="2" width="1196" height="42" fill="#0D131F" rx="13"/>
+  <rect x="2" y="30" width="1196" height="14" fill="#0D131F"/>
+  <line x1="2" y1="44" x2="1198" y2="44" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Window Controls -->
+  <circle cx="28" cy="23" r="5.5" fill="#EF4444"/>
+  <circle cx="46" cy="23" r="5.5" fill="#F59E0B"/>
+  <circle cx="64" cy="23" r="5.5" fill="#10B981"/>
+
+  <!-- Title Center Breadcrumb -->
+  <text x="600" y="28" fill="#64748B" font-size="12.5" class="mono" text-anchor="middle" font-weight="600">
+    KOUSHIK@DEVBOX: ~ // CORE_SUBSYSTEM [TTY_01]
+  </text>
+
+  <!-- Right Status Indicator -->
+  <g transform="translate(1060, 15)">
+    <circle cx="8" cy="8" r="4" fill="#10B981" class="pulse"/>
+    <text x="18" y="12" fill="#10B981" font-size="11" class="mono" font-weight="700">SYS_ONLINE</text>
+  </g>
+
+  <!-- Left Main Content -->
+  <g transform="translate(48, 75)">
+    <!-- Terminal Prompt Line -->
+    <text x="0" y="20" class="mono" font-size="14">
+      <tspan fill="#00E5FF" font-weight="700">❯</tspan>
+      <tspan fill="#10B981" font-weight="600"> koushik@nit-agartala</tspan>
+      <tspan fill="#64748B">:</tspan><tspan fill="#F59E0B">~</tspan>
+      <tspan fill="#64748B">$</tspan>
+      <tspan fill="#F1F5F9"> whoami --verbose</tspan>
+    </text>
+
+    <!-- Hero Developer Name -->
+    <text x="0" y="76" class="mono" font-weight="800" font-size="44" fill="#F8FAFC" letter-spacing="-0.5">
+      KOUSHIK KAR<tspan fill="#00E5FF" class="cursor">_</tspan>
+    </text>
+
+    <!-- Neo-Brutalist Badges / Tags -->
+    <g transform="translate(0, 102)">
+      <!-- Badge 1: Role -->
+      <rect width="215" height="26" rx="4" fill="#111C2E" stroke="#00E5FF" stroke-width="1.2"/>
+      <text x="107" y="17" fill="#00E5FF" class="mono" font-size="11" font-weight="700" text-anchor="middle">FULL-STACK DEVELOPER</text>
+
+      <!-- Badge 2: Engineering Focus -->
+      <g transform="translate(225, 0)">
+        <rect width="185" height="26" rx="4" fill="#111C2E" stroke="#334155" stroke-width="1"/>
+        <text x="92" y="17" fill="#94A3B8" class="mono" font-size="11" font-weight="600" text-anchor="middle">BACKEND SYSTEMS</text>
+      </g>
+
+      <!-- Badge 3: Degree -->
+      <g transform="translate(420, 0)">
+        <rect width="175" height="26" rx="4" fill="#111C2E" stroke="#334155" stroke-width="1"/>
+        <text x="87" y="17" fill="#F59E0B" class="mono" font-size="11" font-weight="600" text-anchor="middle">NIT AGARTALA '28</text>
+      </g>
+    </g>
+
+    <!-- System Telemetry Bullet Lines -->
+    <g transform="translate(0, 162)" class="mono" font-size="13">
+      <text y="0" fill="#64748B">
+        [<tspan fill="#00E5FF">INSTITUTION</tspan>] : <tspan fill="#CBD5E1">National Institute of Technology Agartala · Dept. of ECE</tspan>
+      </text>
+      <text y="26" fill="#64748B">
+        [<tspan fill="#00E5FF">FOCUS_AREA</tspan>]  : <tspan fill="#CBD5E1">High-Throughput Backends • System Design • Scalable Web APIs</tspan>
+      </text>
+      <text y="52" fill="#64748B">
+        [<tspan fill="#00E5FF">PHILOSOPHY</tspan>]  : <tspan fill="#10B981" font-style="italic">"Understand from first principles. Write resilient, production-ready code."</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Neo-Brutalist HUD Box (Wireframe & Hardware Matrix) -->
+  <g transform="translate(735, 74)">
+    <!-- Terminal Panel -->
+    <rect width="415" height="248" rx="8" fill="#0B111C" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Panel Header Bar -->
+    <rect width="415" height="30" rx="8" fill="#111927"/>
+    <rect y="22" width="415" height="8" fill="#111927"/>
+    <line x1="0" y1="30" x2="415" y2="30" stroke="#1E293B" stroke-width="1.2"/>
+    <text x="18" y="20" fill="#64748B" font-size="11" class="mono" font-weight="700">DIAGNOSTICS // MATRIX_INFO</text>
+    <text x="395" y="20" fill="#00E5FF" font-size="11" class="mono" font-weight="700" text-anchor="end">v2.6</text>
+
+    <!-- HUD Data Stream -->
+    <g transform="translate(20, 56)" class="mono" font-size="12">
+      <!-- Row 1 -->
+      <text y="0">
+        <tspan fill="#475569">CORE_STACK  │ </tspan><tspan fill="#F1F5F9">TypeScript, React, Node.js</tspan>
+      </text>
+      <!-- Row 2 -->
+      <text y="24">
+        <tspan fill="#475569">DATABASES   │ </tspan><tspan fill="#38BDF8">Postgres, MongoDB, Redis</tspan>
+      </text>
+      <!-- Row 3 -->
+      <text y="48">
+        <tspan fill="#475569">INFRA_OPS   │ </tspan><tspan fill="#F1F5F9">Docker, Linux, Git, Actions</tspan>
+      </text>
+      <!-- Row 4 -->
+      <text y="72">
+        <tspan fill="#475569">SYSTEM_ID   │ </tspan><tspan fill="#F59E0B">x86_64 // TTY_BASH</tspan>
+      </text>
+      <!-- Row 5 -->
+      <text y="96">
+        <tspan fill="#475569">UPTIME      │ </tspan><tspan fill="#10B981">Undergrad (2024 - 2028)</tspan>
+      </text>
+
+      <!-- Divider line -->
+      <line x1="0" y1="114" x2="375" y2="114" stroke="#1E293B" stroke-dasharray="4 4" stroke-width="1"/>
+
+      <!-- Command Line Prompt -->
+      <text y="140" fill="#64748B">
+        <tspan fill="#00E5FF">$</tspan> git commit -m <tspan fill="#10B981">"ship_quality_code"</tspan>
+      </text>
+      <text y="164" fill="#475569">
+        &gt;&gt; Ready to build, collaborate &amp; scale.
+      </text>
+    </g>
+  </g>
+</svg>

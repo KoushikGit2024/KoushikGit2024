@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="42" viewBox="0 0 950 42" fill="none">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+      @keyframes q0 {
+        0%, 0.00% { opacity: 0; transform: translateY(4px); }
+        0.40%, 3.60% { opacity: 1; transform: translateY(0); }
+        4.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q1 {
+        0%, 4.00% { opacity: 0; transform: translateY(4px); }
+        4.40%, 7.60% { opacity: 1; transform: translateY(0); }
+        8.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q2 {
+        0%, 8.00% { opacity: 0; transform: translateY(4px); }
+        8.40%, 11.60% { opacity: 1; transform: translateY(0); }
+        12.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q3 {
+        0%, 12.00% { opacity: 0; transform: translateY(4px); }
+        12.40%, 15.60% { opacity: 1; transform: translateY(0); }
+        16.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q4 {
+        0%, 16.00% { opacity: 0; transform: translateY(4px); }
+        16.40%, 19.60% { opacity: 1; transform: translateY(0); }
+        20.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q5 {
+        0%, 20.00% { opacity: 0; transform: translateY(4px); }
+        20.40%, 23.60% { opacity: 1; transform: translateY(0); }
+        24.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q6 {
+        0%, 24.00% { opacity: 0; transform: translateY(4px); }
+        24.40%, 27.60% { opacity: 1; transform: translateY(0); }
+        28.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q7 {
+        0%, 28.00% { opacity: 0; transform: translateY(4px); }
+        28.40%, 31.60% { opacity: 1; transform: translateY(0); }
+        32.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q8 {
+        0%, 32.00% { opacity: 0; transform: translateY(4px); }
+        32.40%, 35.60% { opacity: 1; transform: translateY(0); }
+        36.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q9 {
+        0%, 36.00% { opacity: 0; transform: translateY(4px); }
+        36.40%, 39.60% { opacity: 1; transform: translateY(0); }
+        40.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q10 {
+        0%, 40.00% { opacity: 0; transform: translateY(4px); }
+        40.40%, 43.60% { opacity: 1; transform: translateY(0); }
+        44.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q11 {
+        0%, 44.00% { opacity: 0; transform: translateY(4px); }
+        44.40%, 47.60% { opacity: 1; transform: translateY(0); }
+        48.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q12 {
+        0%, 48.00% { opacity: 0; transform: translateY(4px); }
+        48.40%, 51.60% { opacity: 1; transform: translateY(0); }
+        52.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q13 {
+        0%, 52.00% { opacity: 0; transform: translateY(4px); }
+        52.40%, 55.60% { opacity: 1; transform: translateY(0); }
+        56.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q14 {
+        0%, 56.00% { opacity: 0; transform: translateY(4px); }
+        56.40%, 59.60% { opacity: 1; transform: translateY(0); }
+        60.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q15 {
+        0%, 60.00% { opacity: 0; transform: translateY(4px); }
+        60.40%, 63.60% { opacity: 1; transform: translateY(0); }
+        64.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q16 {
+        0%, 64.00% { opacity: 0; transform: translateY(4px); }
+        64.40%, 67.60% { opacity: 1; transform: translateY(0); }
+        68.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q17 {
+        0%, 68.00% { opacity: 0; transform: translateY(4px); }
+        68.40%, 71.60% { opacity: 1; transform: translateY(0); }
+        72.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q18 {
+        0%, 72.00% { opacity: 0; transform: translateY(4px); }
+        72.40%, 75.60% { opacity: 1; transform: translateY(0); }
+        76.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q19 {
+        0%, 76.00% { opacity: 0; transform: translateY(4px); }
+        76.40%, 79.60% { opacity: 1; transform: translateY(0); }
+        80.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q20 {
+        0%, 80.00% { opacity: 0; transform: translateY(4px); }
+        80.40%, 83.60% { opacity: 1; transform: translateY(0); }
+        84.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q21 {
+        0%, 84.00% { opacity: 0; transform: translateY(4px); }
+        84.40%, 87.60% { opacity: 1; transform: translateY(0); }
+        88.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q22 {
+        0%, 88.00% { opacity: 0; transform: translateY(4px); }
+        88.40%, 91.60% { opacity: 1; transform: translateY(0); }
+        92.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q23 {
+        0%, 92.00% { opacity: 0; transform: translateY(4px); }
+        92.40%, 95.60% { opacity: 1; transform: translateY(0); }
+        96.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      @keyframes q24 {
+        0%, 96.00% { opacity: 0; transform: translateY(4px); }
+        96.40%, 99.60% { opacity: 1; transform: translateY(0); }
+        100.00%, 100% { opacity: 0; transform: translateY(-4px); }
+      }
+      .quote-0 { animation: q0 80.0s infinite ease-in-out; }
+      .quote-1 { animation: q1 80.0s infinite ease-in-out; }
+      .quote-2 { animation: q2 80.0s infinite ease-in-out; }
+      .quote-3 { animation: q3 80.0s infinite ease-in-out; }
+      .quote-4 { animation: q4 80.0s infinite ease-in-out; }
+      .quote-5 { animation: q5 80.0s infinite ease-in-out; }
+      .quote-6 { animation: q6 80.0s infinite ease-in-out; }
+      .quote-7 { animation: q7 80.0s infinite ease-in-out; }
+      .quote-8 { animation: q8 80.0s infinite ease-in-out; }
+      .quote-9 { animation: q9 80.0s infinite ease-in-out; }
+      .quote-10 { animation: q10 80.0s infinite ease-in-out; }
+      .quote-11 { animation: q11 80.0s infinite ease-in-out; }
+      .quote-12 { animation: q12 80.0s infinite ease-in-out; }
+      .quote-13 { animation: q13 80.0s infinite ease-in-out; }
+      .quote-14 { animation: q14 80.0s infinite ease-in-out; }
+      .quote-15 { animation: q15 80.0s infinite ease-in-out; }
+      .quote-16 { animation: q16 80.0s infinite ease-in-out; }
+      .quote-17 { animation: q17 80.0s infinite ease-in-out; }
+      .quote-18 { animation: q18 80.0s infinite ease-in-out; }
+      .quote-19 { animation: q19 80.0s infinite ease-in-out; }
+      .quote-20 { animation: q20 80.0s infinite ease-in-out; }
+      .quote-21 { animation: q21 80.0s infinite ease-in-out; }
+      .quote-22 { animation: q22 80.0s infinite ease-in-out; }
+      .quote-23 { animation: q23 80.0s infinite ease-in-out; }
+      .quote-24 { animation: q24 80.0s infinite ease-in-out; }
+    </style>
+  </defs>
+  <rect width="950" height="42" rx="6" fill="#0B111C" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="16" y="26" class="mono" font-size="14" font-weight="700" fill="#00E5FF">❯</text>
+  <text x="32" y="26" class="mono" font-size="12" font-weight="600" fill="#64748B">echo $AXIOM:</text>
+  <g transform="translate(145, 26)" class="mono" font-size="12.5">
+    <text class="quote-0" fill="#E2E8F0">&quot;Simplicity is prerequisite for reliability.&quot; <tspan fill="#00E5FF">— Edsger W. Dijkstra</tspan></text>
+    <text class="quote-1" fill="#E2E8F0">&quot;Make it work, make it right, make it fast.&quot; <tspan fill="#00E5FF">— Kent Beck</tspan></text>
+    <text class="quote-2" fill="#E2E8F0">&quot;Premature optimization is the root of all evil.&quot; <tspan fill="#00E5FF">— Donald Knuth</tspan></text>
+    <text class="quote-3" fill="#E2E8F0">&quot;Clean code always looks like it was written by someone who cares.&quot; <tspan fill="#00E5FF">— Robert C. Martin</tspan></text>
+    <text class="quote-4" fill="#E2E8F0">&quot;First, solve the problem. Then, write the code.&quot; <tspan fill="#00E5FF">— John Johnson</tspan></text>
+    <text class="quote-5" fill="#E2E8F0">&quot;Deleted code is debugged code.&quot; <tspan fill="#00E5FF">— Jeff Sickel</tspan></text>
+    <text class="quote-6" fill="#E2E8F0">&quot;Good programmers worry about data structures and their relationships.&quot; <tspan fill="#00E5FF">— Linus Torvalds</tspan></text>
+    <text class="quote-7" fill="#E2E8F0">&quot;Programs must be written for people to read, and only incidentally for machines.&quot; <tspan fill="#00E5FF">— Harold Abelson</tspan></text>
+    <text class="quote-8" fill="#E2E8F0">&quot;There are only two hard things: cache invalidation and naming things.&quot; <tspan fill="#00E5FF">— Phil Karlton</tspan></text>
+    <text class="quote-9" fill="#E2E8F0">&quot;The function of good software is to make the complex appear simple.&quot; <tspan fill="#00E5FF">— Grady Booch</tspan></text>
+    <text class="quote-10" fill="#E2E8F0">&quot;Talk is cheap. Show me the code.&quot; <tspan fill="#00E5FF">— Linus Torvalds</tspan></text>
+    <text class="quote-11" fill="#E2E8F0">&quot;Perfection is achieved when there is nothing left to take away.&quot; <tspan fill="#00E5FF">— Antoine de Saint-Exupéry</tspan></text>
+    <text class="quote-12" fill="#E2E8F0">&quot;Testing leads to failure, and failure leads to understanding.&quot; <tspan fill="#00E5FF">— Burt Rutan</tspan></text>
+    <text class="quote-13" fill="#E2E8F0">&quot;Before software can be reusable it first has to be usable.&quot; <tspan fill="#00E5FF">— Ralph Johnson</tspan></text>
+    <text class="quote-14" fill="#E2E8F0">&quot;Architecture is about the important stuff. Whatever that is.&quot; <tspan fill="#00E5FF">— Ralph Johnson</tspan></text>
+    <text class="quote-15" fill="#E2E8F0">&quot;Complexity is the enemy of execution.&quot; <tspan fill="#00E5FF">— Tony Robbins</tspan></text>
+    <text class="quote-16" fill="#E2E8F0">&quot;The best error message is the one that never shows up.&quot; <tspan fill="#00E5FF">— Thomas Fuchs</tspan></text>
+    <text class="quote-17" fill="#E2E8F0">&quot;If you can&#x27;t explain it simply, you don&#x27;t understand it well enough.&quot; <tspan fill="#00E5FF">— Albert Einstein</tspan></text>
+    <text class="quote-18" fill="#E2E8F0">&quot;Software is a combination between artistry and engineering.&quot; <tspan fill="#00E5FF">— Bill Gates</tspan></text>
+    <text class="quote-19" fill="#E2E8F0">&quot;Any code you haven&#x27;t looked at for six months might as well be written by someone else.&quot; <tspan fill="#00E5FF">— Alan Perlis</tspan></text>
+    <text class="quote-20" fill="#E2E8F0">&quot;Idempotency is the secret superpower of distributed systems.&quot; <tspan fill="#00E5FF">— Systems Axiom</tspan></text>
+    <text class="quote-21" fill="#E2E8F0">&quot;Write code as if the person who maintains it is a violent psychopath who knows where you live.&quot; <tspan fill="#00E5FF">— John Woods</tspan></text>
+    <text class="quote-22" fill="#E2E8F0">&quot;Every complex system that works evolved from a simple system that worked.&quot; <tspan fill="#00E5FF">— John Gall</tspan></text>
+    <text class="quote-23" fill="#E2E8F0">&quot;Quality is not an act, it is a habit.&quot; <tspan fill="#00E5FF">— Aristotle</tspan></text>
+    <text class="quote-24" fill="#E2E8F0">&quot;Optimism is an occupational hazard of programming: feedback is the treatment.&quot; <tspan fill="#00E5FF">— Kent Beck</tspan></text>
+  </g>
+</svg>
